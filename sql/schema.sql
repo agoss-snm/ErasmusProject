@@ -8,3 +8,8 @@ create table if not exists training_leassons
     description     varchar(256),
     orderNumber     int
 );
+
+create table if not exists trainings
+(
+    id              bigint auto_increment primary key
+);
